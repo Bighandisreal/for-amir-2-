@@ -4,467 +4,544 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>For Raiah ♡</title>
+  <title>For Raiah, In Case You Forget</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Serif+Display&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="sticker">
-  <img src="./raiah.jpg" alt="Raiah">
-  <span class="bow">🎀</span>
-  <span class="star star1">✦</span>
-  <span class="star star2">✧</span>
-  </div>
-
   <main class="book">
 
-    <!-- PAGE 1 -->
-    <section class="page active">
-      <div class="tape"></div>
+    <!-- PAGE 01 -->
+    <section class="page active" id="page1">
 
-      <p class="tiny">A little something from Faele</p>
+      <div class="top-line">
+        <span>PRIVATE KEEPSAKE</span>
+        <span>01 / 09</span>
+      </div>
 
-      <h1>For Raiah ♡</h1>
+      <div class="cover-layout">
 
-      <div class="sticker">🎀</div>
+        <div class="cover-copy">
+          <p class="eyebrow">A small internet archive</p>
 
-      <p class="handwritten">
-        I made you a little corner<br>
-        of the internet.
-      </p>
+          <h1>
+            For<br>
+            <em>Raiah.</em>
+          </h1>
 
-      <p class="small">
-        Turn the page when you're ready.
-      </p>
+          <p class="cover-subtitle">
+            In case you forget how much<br>
+            you matter to the people<br>
+            who know you.
+          </p>
 
-      <button onclick="nextPage()">open ♡</button>
+          <div class="signature">
+            made by Faele ♡
+          </div>
+        </div>
 
-      <span class="page-number">01</span>
+        <div class="photo-frame">
+          <div class="photo-tape"></div>
+
+          <img src="raiah.jpg" alt="Raiah">
+
+          <div class="photo-caption">
+            <span>RAIAH</span>
+            <span>one of my favorite people</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="bottom-line">
+        <span>OPEN WHEN YOU HAVE A MINUTE</span>
+        <button onclick="nextPage()">OPEN →</button>
+      </div>
+
     </section>
 
 
-    <!-- PAGE 2 -->
-    <section class="page">
-      <p class="tiny">01 / the beginning</p>
+    <!-- PAGE 02 -->
+    <section class="page" id="page2">
 
-      <h2>This is not a birthday letter.</h2>
-
-      <div class="paper">
-        <p>
-          I could have written you the usual thing.
-          Happy birthday. I wish you happiness, success,
-          good health, and all the other things people
-          put into birthday messages because they are
-          expected to say them.
-        </p>
-
-        <p>
-          But you know me well enough to know that I
-          would find that terribly boring.
-        </p>
-
-        <p class="handwritten">
-          So, keep this instead.
-        </p>
+      <div class="top-line">
+        <span>THE BEGINNING</span>
+        <span>02 / 09</span>
       </div>
 
-      <button onclick="nextPage()">keep reading →</button>
+      <div class="page-heading">
+        <span class="section-number">01</span>
+        <h2>This is not<br><em>a birthday letter.</em></h2>
+      </div>
 
-      <span class="page-number">02</span>
+      <div class="letter-sheet">
+
+        <p class="handwritten">Dear Raiah,</p>
+
+        <p>
+          This is not really a birthday letter.
+        </p>
+
+        <p>
+          It is more like a collection of things I have
+          noticed, remembered, and probably never said
+          properly because saying certain things out loud
+          makes them sound smaller than they actually are.
+        </p>
+
+        <p>
+          So I put them here instead.
+        </p>
+
+        <p>
+          You can read this whenever you want.
+          You can skip parts. You can come back months
+          from now and pretend you found an old website
+          somebody made for you.
+        </p>
+
+        <p class="handwritten closing">
+          I suppose that is exactly what this is.
+        </p>
+
+      </div>
+
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
+
     </section>
 
 
-    <!-- PAGE 3 -->
-    <section class="page">
-      <p class="tiny">02 / the person I met</p>
+    <!-- PAGE 03 -->
+    <section class="page" id="page3">
 
-      <h2>The Person I Met</h2>
+      <div class="top-line">
+        <span>OBSERVATION FILE</span>
+        <span>03 / 09</span>
+      </div>
 
-      <div class="paper lined">
+      <div class="page-heading split-heading">
+        <div>
+          <span class="section-number">02</span>
+          <h2>The person<br><em>I met.</em></h2>
+        </div>
 
-        <p>
-          There are people you meet and eventually forget
-          small things about.
+        <p class="margin-note">
+          things you probably<br>
+          don't notice about yourself
         </p>
+      </div>
 
-        <p>
-          Then there are people whose existence somehow
-          leaves little marks everywhere.
-        </p>
+      <div class="observation-grid">
 
-        <p>
-          You became one of those people.
-        </p>
+        <article class="observation">
+          <span class="obs-number">01</span>
+          <h3>You care quietly.</h3>
+          <p>
+            You do things for people without making a
+            presentation out of it. Sometimes you probably
+            don't even realize that somebody noticed.
+          </p>
+        </article>
 
-        <p>
-          Not because you tried particularly hard to be
-          memorable. You probably didn't.
-        </p>
+        <article class="observation rotated">
+          <span class="obs-number">02</span>
+          <h3>You get busy.</h3>
+          <p>
+            Very busy. The kind of busy where school,
+            responsibilities, and everything else somehow
+            become more important than remembering to stop
+            for yourself.
+          </p>
+        </article>
 
-        <p>
-          You simply existed as yourself, and somehow
-          that was enough.
-        </p>
+        <article class="observation">
+          <span class="obs-number">03</span>
+          <h3>You keep going.</h3>
+          <p>
+            Even when things pile up, you somehow find a way
+            to continue. I don't think you give yourself
+            enough credit for that.
+          </p>
+        </article>
+
+        <article class="observation small-note">
+          <span class="obs-number">04</span>
+          <h3>Also...</h3>
+          <p>
+            You are considerably more memorable than you
+            probably intended to be.
+          </p>
+        </article>
 
       </div>
 
-      <button onclick="nextPage()">next page →</button>
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
 
-      <span class="page-number">03</span>
     </section>
 
 
-    <!-- PAGE 4 -->
-    <section class="page">
-      <p class="tiny">03 / things you probably don't notice</p>
+    <!-- PAGE 04 -->
+    <section class="page" id="page4">
 
-      <h2>Things You Probably Don't Notice</h2>
-
-      <div class="note pink">
-        <span>✦</span>
-        You have a habit of taking care of everyone
-        while forgetting that you are also someone
-        who needs taking care of.
+      <div class="top-line">
+        <span>THINGS I REMEMBER</span>
+        <span>04 / 09</span>
       </div>
 
-      <div class="note cream">
-        <span>♡</span>
-        There were times you were so busy with school
-        that you forgot to eat.
+      <div class="memory-layout">
+
+        <div class="memory-title">
+          <span class="section-number">03</span>
+          <h2>Things I have<br><em>not forgotten.</em></h2>
+
+          <p class="handwritten">
+            Yes, I remember more than you think.
+          </p>
+        </div>
+
+        <div class="memory-stack">
+
+          <div class="memory-card card-one">
+            <span>MEMORY / 01</span>
+            <p>
+              The conversations that somehow lasted
+              much longer than either of us planned.
+            </p>
+          </div>
+
+          <div class="memory-card card-two">
+            <span>MEMORY / 02</span>
+            <p>
+              The little things you mentioned casually
+              that I remembered anyway.
+            </p>
+          </div>
+
+          <div class="memory-card card-three">
+            <span>MEMORY / 03</span>
+            <p>
+              The moments when you were happy and didn't
+              have to explain why.
+            </p>
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="note pink">
-        <span>🌷</span>
-        There were times you slept at school because
-        apparently sleeping properly was optional.
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
       </div>
 
-      <div class="note cream">
-        <span>☾</span>
-        And yes, I remember that night you were still
-        awake around 2 AM.
-      </div>
-
-      <p class="handwritten center">
-        I noticed. I just didn't make a spectacle of it.
-      </p>
-
-      <button onclick="nextPage()">next →</button>
-
-      <span class="page-number">04</span>
     </section>
 
 
-    <!-- PAGE 5 -->
-    <section class="page">
-      <p class="tiny">04 / things I haven't forgotten</p>
+    <!-- PAGE 05 -->
+    <section class="page paper-page" id="page5">
 
-      <h2>Things I Have Not Forgotten</h2>
+      <div class="top-line">
+        <span>A NOTE FOR YOU</span>
+        <span>05 / 09</span>
+      </div>
 
-      <div class="paper">
+      <div class="center-letter">
 
-        <p>
-          I remember the little things more than I remember
-          the grand ones.
-        </p>
+        <span class="section-number">04</span>
 
-        <ul>
-          <li>the random conversations</li>
-          <li>the stupid jokes</li>
-          <li>the moments you were tired but still showed up</li>
-          <li>the times you probably didn't realize I was worried</li>
-          <li>the way you somehow make ordinary conversations memorable</li>
-        </ul>
+        <h2>
+          For the version of you<br>
+          <em>who thinks she has fallen behind.</em>
+        </h2>
 
-        <p>
-          Memory is a terrible archivist.
-          It loses dates, details, and entire conversations.
-        </p>
+        <div class="long-letter">
 
-        <p>
-          But some people stay.
-        </p>
+          <p>
+            You are allowed to have a slower day.
+          </p>
+
+          <p>
+            You are allowed to look around and feel like
+            everyone else is somehow ahead of you.
+            Just don't mistake that feeling for a fact.
+          </p>
+
+          <p>
+            Your life is not a race that everybody else
+            started before you.
+          </p>
+
+          <p>
+            There will be days when you accomplish a lot,
+            and there will be days when getting through
+            everything already on your plate is enough.
+          </p>
+
+          <p>
+            Neither version of you is less deserving of
+            being proud of herself.
+          </p>
+
+          <p class="handwritten">
+            You don't have to have everything figured out.
+          </p>
+
+        </div>
 
       </div>
 
-      <p class="quote">
-        “Some forms of love are inconveniently practical.”
-      </p>
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
 
-      <button onclick="nextPage()">next →</button>
-
-      <span class="page-number">05</span>
     </section>
 
 
-    <!-- PAGE 6 -->
-    <section class="page">
-      <p class="tiny">05 / for the version of you...</p>
+    <!-- PAGE 06 -->
+    <section class="page" id="page6">
 
-      <h2>For the Version of You Who Thinks She Has Fallen Behind</h2>
+      <div class="top-line">
+        <span>ANOTHER VERSION</span>
+        <span>06 / 09</span>
+      </div>
 
-      <div class="paper">
+      <div class="happy-layout">
 
-        <p>
-          You are allowed to have days where you feel like
-          everyone else is moving faster than you.
-        </p>
+        <div class="happy-title">
+          <span class="section-number">05</span>
+          <h2>For the version<br>of you who is <em>happy.</em></h2>
+        </div>
 
-        <p>
-          You are allowed to be tired.
-          You are allowed to not have everything figured out.
-        </p>
+        <div class="sun-card">
 
-        <p>
-          Just don't turn one difficult season into a
-          permanent description of yourself.
-        </p>
+          <div class="tiny-label">PLEASE KEEP THIS ONE</div>
 
-        <p class="handwritten">
-          You are still becoming.
-        </p>
+          <h3>
+            I hope you never feel<br>
+            embarrassed about being happy.
+          </h3>
+
+          <p>
+            Keep the silly moments.
+            Keep the excitement.
+            Keep the things that make you laugh for no
+            particularly intelligent reason.
+          </p>
+
+          <p>
+            You deserve memories that aren't made only
+            from surviving difficult things.
+          </p>
+
+          <span class="handwritten">
+            Let yourself enjoy them.
+          </span>
+
+        </div>
 
       </div>
 
-      <button onclick="nextPage()">next →</button>
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
 
-      <span class="page-number">06</span>
     </section>
 
 
-    <!-- PAGE 7 -->
-    <section class="page">
-      <p class="tiny">06 / for the happy version</p>
+    <!-- PAGE 07 -->
+    <section class="page" id="page7">
 
-      <h2>For the Version of You Who Is Happy</h2>
+      <div class="top-line">
+        <span>IMPORTANT INFORMATION</span>
+        <span>07 / 09</span>
+      </div>
 
-      <div class="paper flower-paper">
+      <div class="important-layout">
 
-        <p>
-          This one is simpler.
-        </p>
+        <div class="important-title">
+          <span class="section-number">06</span>
 
-        <p>
-          When something good happens to you,
-          don't immediately search for the part
-          that could go wrong.
-        </p>
+          <h2>
+            Something<br>
+            I want you<br>
+            <em>to know.</em>
+          </h2>
+        </div>
 
-        <p>
-          Let yourself have the good thing.
-        </p>
+        <div class="important-note">
 
-        <p>
-          You don't need to earn every happy moment
-          by suffering first.
-        </p>
+          <div class="stamp">KEEP</div>
 
-        <p class="handwritten">
-          Keep the good days, too.
-        </p>
+          <p>
+            Some forms of love are inconveniently practical.
+          </p>
+
+          <p>
+            It is remembering that somebody hasn't eaten.
+            It is noticing when they have been awake too
+            long. It is remembering the small things they
+            casually mentioned weeks ago.
+          </p>
+
+          <p>
+            It is caring without needing a dramatic reason
+            for it.
+          </p>
+
+          <p>
+            You matter to me.
+          </p>
+
+          <p>
+            I don't keep people around simply because
+            they're easy to keep around.
+          </p>
+
+          <p class="handwritten">
+            I keep people around because I find them worth
+            the inconvenience of caring.
+          </p>
+
+        </div>
 
       </div>
 
-      <button onclick="nextPage()">next →</button>
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
 
-      <span class="page-number">07</span>
     </section>
 
 
-    <!-- PAGE 8 -->
-    <section class="page">
-      <p class="tiny">07 / something I want you to know</p>
+    <!-- PAGE 08 -->
+    <section class="page" id="page8">
 
-      <h2>Something I Want You to Know</h2>
+      <div class="top-line">
+        <span>ARCHIVE / FUTURE</span>
+        <span>08 / 09</span>
+      </div>
 
-      <div class="paper">
+      <div class="future-layout">
 
-        <p>
-          I don't keep people around simply because
-          we've known each other for a long time.
-        </p>
+        <div class="future-file">
 
-        <p>
-          I keep people around because I find them
-          worth the inconvenience of caring.
-        </p>
+          <div class="file-tab">ARCHIVE</div>
 
-        <p>
-          You matter to me.
-        </p>
+          <span class="section-number">07</span>
 
-        <p>
-          That's really all there is to it.
-        </p>
+          <h2>
+            A note to<br>
+            <em>future Raiah.</em>
+          </h2>
 
-        <p class="quote">
-          “You matter to me.”
-        </p>
+          <div class="archive-details">
+            <span>FILE: RAIAH</span>
+            <span>STATUS: KEEP GOING</span>
+            <span>ACCESS: ANYTIME</span>
+          </div>
+
+          <p>
+            If you're reading this years from now,
+            I hope you're somewhere you wanted to be.
+          </p>
+
+          <p>
+            And if you're not, I hope you haven't convinced
+            yourself that the story is over simply because
+            it took a different turn.
+          </p>
+
+          <p>
+            There are still places you haven't seen,
+            people you haven't met, and versions of yourself
+            you haven't become yet.
+          </p>
+
+          <p class="handwritten">
+            Distance is not disappearance.
+          </p>
+
+        </div>
 
       </div>
 
-      <button onclick="nextPage()">next →</button>
+      <div class="page-footer">
+        <button onclick="previousPage()">← BACK</button>
+        <button onclick="nextPage()">NEXT →</button>
+      </div>
 
-      <span class="page-number">08</span>
     </section>
 
 
-    <!-- PAGE 9 -->
-    <section class="page">
-      <p class="tiny">08 / if we ever become strangers</p>
+    <!-- PAGE 09 -->
+    <section class="page final-page" id="page9">
 
-      <h2>If We Ever Become Strangers</h2>
+      <div class="top-line">
+        <span>END OF FILE</span>
+        <span>09 / 09</span>
+      </div>
 
-      <div class="paper">
+      <div class="final-content">
 
-        <p>
-          If life gets busy enough that we eventually
-          become strangers again, I hope you know
-          that it doesn't erase what existed before it.
-        </p>
+        <span class="section-number">08</span>
 
-        <p>
-          There will still have been a version of my life
-          where you were here.
-        </p>
+        <h2>
+          If I'm<br>
+          <em>far away.</em>
+        </h2>
 
-        <p>
-          A version where I knew you.
-          Where I worried about whether you had eaten.
-          Where I knew you stayed awake too late.
-        </p>
+        <div class="final-letter">
 
-        <p>
-          And I think that's worth remembering.
-        </p>
+          <p>
+            I hope you know that being far away doesn't
+            erase the people who mattered.
+          </p>
+
+          <p>
+            Some friendships survive in ordinary ways.
+            A message. A random conversation. A memory that
+            suddenly shows up when you weren't looking for it.
+          </p>
+
+          <p>
+            And if life ever takes us in completely different
+            directions, I hope I can still look back and be
+            glad that our paths crossed.
+          </p>
+
+          <p>
+            I would rather say "see you later" and mean it.
+          </p>
+
+        </div>
+
+        <div class="final-signoff">
+          <span>Happy birthday, Raiah.</span>
+          <strong>I'll see you later, Lola.</strong>
+        </div>
+
+        <button class="restart" onclick="goHome()">
+          ↻ READ AGAIN
+        </button>
 
       </div>
 
-      <button onclick="nextPage()">next →</button>
-
-      <span class="page-number">09</span>
-    </section>
-
-
-    <!-- PAGE 10 -->
-    <section class="page">
-      <p class="tiny">09 / a note to future Raiah</p>
-
-      <h2>A Note to Future Raiah</h2>
-
-      <div class="letter-box">
-
-        <p>
-          Hi.
-        </p>
-
-        <p>
-          I don't know when you're reading this.
-        </p>
-
-        <p>
-          Maybe you're still studying.
-          Maybe you've graduated.
-          Maybe your life looks completely different now.
-        </p>
-
-        <p>
-          Whatever happened between now and then,
-          I hope you didn't become too hard on yourself.
-        </p>
-
-        <p>
-          And if you did, I hope you eventually learned
-          how to be gentle with yourself again.
-        </p>
-
-        <p class="handwritten">
-          Take care of yourself, Lola.
-        </p>
-
-      </div>
-
-      <button onclick="nextPage()">next →</button>
-
-      <span class="page-number">10</span>
-    </section>
-
-
-    <!-- PAGE 11 -->
-    <section class="page">
-      <p class="tiny">10 / if I'm far away</p>
-
-      <h2>If I'm Far Away</h2>
-
-      <div class="paper">
-
-        <p>
-          If you read this while I'm somewhere far away,
-          don't make the distance heavier than it needs to be.
-        </p>
-
-        <p>
-          Distance is not disappearance.
-        </p>
-
-        <p>
-          People can be far from each other and still
-          remain important.
-        </p>
-
-        <p>
-          So don't read this like a goodbye.
-        </p>
-
-        <p class="handwritten">
-          I'd rather say “see you later” and mean it.
-        </p>
-
-      </div>
-
-      <button onclick="nextPage()">one more →</button>
-
-      <span class="page-number">11</span>
-    </section>
-
-
-    <!-- PAGE 12 -->
-    <section class="page final">
-      <p class="tiny">11 / lastly</p>
-
-      <h2>Lastly</h2>
-
-      <div class="empty-space">
-        <span>♡</span>
-      </div>
-
-      <p class="handwritten big">
-        Happy birthday, Raiah.
-      </p>
-
-      <p>
-        Keep this little corner of the internet.
-      </p>
-
-      <p>
-        Come back to it whenever you need to remember
-        that someone once noticed the little things.
-      </p>
-
-      <p class="quote">
-        I'll see you later, Lola.
-      </p>
-
-      <button onclick="goHome()">↻ start again</button>
-
-      <span class="page-number">12</span>
     </section>
 
   </main>
